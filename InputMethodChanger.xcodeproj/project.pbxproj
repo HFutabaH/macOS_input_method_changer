@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7778961C9946B500F7C18E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7778951C9946B500F7C18E /* AppDelegate.m */; };
+		DB7778991C9946B500F7C18E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7778981C9946B500F7C18E /* main.m */; };
+		DB77789B1C9946B500F7C18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB77789A1C9946B500F7C18E /* Assets.xcassets */; };
+		DB77789E1C9946B500F7C18E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB77789C1C9946B500F7C18E /* MainMenu.xib */; };
+		DB7778A61C99499900F7C18E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7778A51C99499900F7C18E /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB7778911C9946B500F7C18E /* InputMethodChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputMethodChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7778941C9946B500F7C18E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB7778951C9946B500F7C18E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB7778981C9946B500F7C18E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB77789A1C9946B500F7C18E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB77789D1C9946B500F7C18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DB77789F1C9946B500F7C18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7778A51C99499900F7C18E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB77788E1C9946B500F7C18E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7778A61C99499900F7C18E /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7778881C9946B500F7C18E = {
+			isa = PBXGroup;
+			children = (
+				DB7778A51C99499900F7C18E /* Carbon.framework */,
+				DB7778931C9946B500F7C18E /* InputMethodChanger */,
+				DB7778921C9946B500F7C18E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7778921C9946B500F7C18E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7778911C9946B500F7C18E /* InputMethodChanger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7778931C9946B500F7C18E /* InputMethodChanger */ = {
+			isa = PBXGroup;
+			children = (
+				DB7778941C9946B500F7C18E /* AppDelegate.h */,
+				DB7778951C9946B500F7C18E /* AppDelegate.m */,
+				DB77789A1C9946B500F7C18E /* Assets.xcassets */,
+				DB77789C1C9946B500F7C18E /* MainMenu.xib */,
+				DB77789F1C9946B500F7C18E /* Info.plist */,
+				DB7778971C9946B500F7C18E /* Supporting Files */,
+			);
+			path = InputMethodChanger;
+			sourceTree = "<group>";
+		};
+		DB7778971C9946B500F7C18E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB7778981C9946B500F7C18E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7778901C9946B500F7C18E /* InputMethodChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7778A21C9946B500F7C18E /* Build configuration list for PBXNativeTarget "InputMethodChanger" */;
+			buildPhases = (
+				DB77788D1C9946B500F7C18E /* Sources */,
+				DB77788E1C9946B500F7C18E /* Frameworks */,
+				DB77788F1C9946B500F7C18E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputMethodChanger;
+			productName = InputMethodChanger;
+			productReference = DB7778911C9946B500F7C18E /* InputMethodChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7778891C9946B500F7C18E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Futaba;
+				TargetAttributes = {
+					DB7778901C9946B500F7C18E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DB77788C1C9946B500F7C18E /* Build configuration list for PBXProject "InputMethodChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = DB7778881C9946B500F7C18E;
+			productRefGroup = DB7778921C9946B500F7C18E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7778901C9946B500F7C18E /* InputMethodChanger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB77788F1C9946B500F7C18E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB77789B1C9946B500F7C18E /* Assets.xcassets in Resources */,
+				DB77789E1C9946B500F7C18E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB77788D1C9946B500F7C18E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7778991C9946B500F7C18E /* main.m in Sources */,
+				DB7778961C9946B500F7C18E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB77789C1C9946B500F7C18E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB77789D1C9946B500F7C18E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7778A01C9946B500F7C18E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB7778A11C9946B500F7C18E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB7778A31C9946B500F7C18E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 54;
+				INFOPLIST_FILE = InputMethodChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futaba.InputMethodChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7778A41C9946B500F7C18E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 54;
+				INFOPLIST_FILE = InputMethodChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futaba.InputMethodChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB77788C1C9946B500F7C18E /* Build configuration list for PBXProject "InputMethodChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7778A01C9946B500F7C18E /* Debug */,
+				DB7778A11C9946B500F7C18E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7778A21C9946B500F7C18E /* Build configuration list for PBXNativeTarget "InputMethodChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7778A31C9946B500F7C18E /* Debug */,
+				DB7778A41C9946B500F7C18E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7778891C9946B500F7C18E /* Project object */;
+}
